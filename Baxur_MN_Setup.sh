@@ -179,6 +179,14 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
     echo
     echo -e "${CYAN}masternode1 ${mnip}:${COINPORT} ${mnkey} tx index${NONE}"
     echo
+    echo -e "${BOLD}Or you can set it up within your cold Baxur Coin wallet using the create option on the Maternode tab.${NONE}".
+    echo
+    echo -e "${CYAN}Alias: MN1${NONE}"
+    echo -e "${CYAN}Address: ${mnip}:${COINPORT}"
+    echo -e "${CYAN}PrivKey: ${mnkey}"
+    echo -e "${CYAN}TxHash: TX${NONE}"
+    echo -e "${CYAN}Output Index: index${NONE}"
+    echo
     echo -e "${BOLD}Thank you for your support of Baxur Coin.${NONE}"
     echo
 else
