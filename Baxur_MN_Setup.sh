@@ -146,6 +146,7 @@ startWallet() {
     echo
     echo -e "[10/${MAX}] Starting wallet daemon..."
     cd /root/$COINSRCDIR/src
+    sudo cp baxurd /usr/local/bin
     sudo ./$COINDAEMON -daemon > /dev/null 2>&1
     sleep 5
     echo -e "${GREEN}* Completed${NONE}";
